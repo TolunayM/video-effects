@@ -36,7 +36,7 @@ function setup(){
     })
 
     resetButton.addEventListener("click",() => {
-        
+        target.source = src;
     })
 
 
