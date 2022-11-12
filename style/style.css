@@ -1,0 +1,30 @@
+.buttons{
+    height: 100px;
+    width: 100px;
+    margin-left: 70em;
+}
+.button{
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    font-size: 10px;
+    font-weight: 800;
+    margin: 0;
+    outline: none;
+    overflow: hidden;
+    position:relative;
+    padding: 15px 15px 15px;
+    text-align: center;
+    text-transform: none;
+    touch-action: manipulation;
+    width: 90%; 
+}
+
+.button:hover,
+.button:focus{
+    opacity: .50;
+}
